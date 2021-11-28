@@ -1,4 +1,6 @@
 
+Zapraszam na [mój blog](https://przypadkopis.wordpress.com/).
+
 ## Magdalena Filak, Hiszpański w tłumaczeniach cz.1
 
 Pliki audio zawierają całe rozdziały, a nie poszczególne wypowiedzi. Jeżeli wolisz bezpośredni dostęp do

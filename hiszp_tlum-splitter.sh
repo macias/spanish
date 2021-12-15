@@ -9,10 +9,18 @@ function split_chapter
 
   printf -v CHSTR "%02d" $CH
 
+  FILE=0$((CH+35))\ Unidad\ ${CH}\ Es.mp3
+
+  if [ ! -f "$FILE" ]
+  then
+    # brilliant work from Preston Publishing
+    FILE=0$((CH+35))\ Unidad\ ${CH}\ ES.mp3
+  fi
+
   for ((i=1 ; i<${#CUT[@]} ; ++i))
   do
     printf -v ISTR "%02d" $i
-    ffmpeg -n -ss ${CUT[$((i-1))]} -to ${CUT[$i]} -i 0$((CH+35))\ Unidad\ ${CH}\ Es.mp3 -c copy r${CHSTR}_w${ISTR}.mp3
+    ffmpeg -n -ss ${CUT[$((i-1))]} -to ${CUT[$i]} -i "$FILE" -c copy r${CHSTR}_w${ISTR}.mp3
   done
 }
 
@@ -1023,3 +1031,45 @@ TIMES=(
 )
 
 split_chapter 24 TIMES
+
+TIMES=(
+00:00:05.5
+00:00:08.6
+00:00:11.3
+00:00:14.7
+00:00:18.5
+00:00:23.5
+00:00:28.8
+00:00:33.4
+00:00:37.6
+00:00:43.6
+00:00:50.2
+00:00:54.6
+00:00:59.2
+00:01:03.3
+00:01:07
+00:01:12.2
+00:01:18.3
+00:01:22.2
+00:01:27.5
+00:01:32.4
+00:01:36
+00:01:39
+00:01:44
+00:01:47.8
+00:01:53.6
+00:02:01.4
+00:02:07
+00:02:12.4
+00:02:20.5
+00:02:26.6
+00:02:32.5
+00:02:39.2
+00:02:44
+00:02:51.9
+00:02:58.1
+00:03:02.8
+00:03:09
+)
+
+split_chapter 25 TIMES

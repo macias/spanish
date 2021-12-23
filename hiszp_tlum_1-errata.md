@@ -1,0 +1,1 @@
+* rozdział 27, wiersz 35: trafico -> tráfico

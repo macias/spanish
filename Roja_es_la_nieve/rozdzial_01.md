@@ -4,5 +4,5 @@
 <p>Wzdycham. To dopiero mój drugi tydzień na nowym stanowisku, a dzień jest okropny. Burza śnieżna nadciąga dziś wieczorem.
 Musimy ostrzec ludzi ze wszystkich miasteczek w regionie, ale większość moich kolegów choruje na grypę. Zostało tylko dwóch zdrowych funkcjonariuszy,
 aby objechać wszystkie miejscowości.</p>
-<p>- Dzięki centrala. Jaki jest adres?</p>
+<p>— Dzięki centrala. Jaki jest adres?</p>
 <p>Miasto nie jest daleko. Zmieniam drogę i widzę pierwsze płatki śniegu.</p>

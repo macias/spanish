@@ -6,17 +6,45 @@ function split_chapter
 {
   local CH=$1
   local -n CUT=$2
+  # line mapping so we could get some junk-in-the-middle out of regular line numbering
+  if (( $# == 2 ))
+  then
+    local MAP=()
+  else
+    local -n MAP=$3
+  fi
 
   printf -v CHSTR "%02d" $CH
 
   FILE=0$((CH+35))\ Unidad\ ${CH}\ ES\ VER_LANG.mp3
 
+  line=1
+  USED=()
   for ((i=1 ; i<${#CUT[@]} ; ++i))
   do
-    printf -v ISTR "%02d" $i
-    ffmpeg -n -ss ${CUT[$((i-1))]} -to ${CUT[$i]} -i "$FILE" -c copy r${CHSTR}_w${ISTR}.mp3
+    curr_line=$line
+    # if the given entry is mapped in line-map, then use the given line number, otherwise increase the number as usual
+    if [ ${MAP[$i]+_} ]
+    then
+      curr_line=${MAP[$i]}
+      USED[$curr_line]=1
+    else
+      while true
+      do
+        line=$((++line))
+        # we need to skip over used targets from line mapping
+        if [ ! ${USED[$line]+_} ]
+        then
+          break
+        fi
+      done
+    fi
+    printf -v LSTR "%02d" $curr_line
+    ffmpeg -n -ss ${CUT[$((i-1))]} -to ${CUT[$i]} -i "$FILE" -c copy r${CHSTR}_w${LSTR}.mp3
   done
 }
+
+declare -A LINES
 
 TIMES=(
 00:00:05.7
@@ -101,3 +129,49 @@ TIMES=(
 )
 
 split_chapter 2 TIMES
+
+LINES[16]=23  # some freaking mess
+
+TIMES=(
+00:00:07.3
+00:00:16.6
+00:00:27.8
+00:00:35.2
+00:00:43.9
+00:00:51.9
+00:01:02.4
+00:01:09
+00:01:18.1
+00:01:23
+00:01:29
+00:01:38.1
+00:01:43.9
+00:01:51.2
+00:02:03
+00:02:14
+00:02:23.1
+00:02:34.3
+00:02:44.1
+00:02:52.9
+00:03:03.4
+00:03:15.4
+00:03:26.7
+00:03:32.4
+00:03:40.2
+00:03:49
+00:03:58.2
+00:04:07.5
+00:04:13.9
+00:04:20.5
+00:04:31.5
+00:04:38.5
+00:04:46.1
+00:04:53.7
+00:05:02
+00:05:09.2
+00:05:15.2
+)
+
+split_chapter 3 TIMES LINES
+
+LINES=()

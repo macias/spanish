@@ -8,6 +8,12 @@ Pliki audio zawierają całe rozdziały, a nie poszczególne wypowiedzi. Jeżeli
 każdej z kwestii, rozpakuj paczkę z lektorem hiszpańskim, zainstaluj ffmpega oraz basha, a następnie w katalogu,
 w którym znajdują się pliki mp3 uruchom skrypt hiszp_tlum_X-splitter.sh.
 
+## Beata Pawlikowska, Praktyczny kurs języka hiszpańskiego
+
+*W trakcie budowy.*
+
+W pliku erraty zapisuję wyłącznie to, co wyłapałem podczas nauki, nie robiłem jakiejś systemowej weryfikacji tekstu.
+
 ## Carlos Solanillos, Roja es la nieve
 
 *W trakcie budowy.*
@@ -15,3 +21,4 @@ w którym znajdują się pliki mp3 uruchom skrypt hiszp_tlum_X-splitter.sh.
 Książka zawiera tłumaczenia, ale tylko niektórych wyrazów, co dla początkującego (czyli mnie) jest lekko zaporowym
 poziomem. W podkatalogu "Roja_es_la_nieve" będę więc umieszczał tłumaczenia (Google Translator plus moja początkująca
 korekta). Nie wygląda to dobrze, ale zdaje się jezyk oryginału jest nieco drewniany.
+

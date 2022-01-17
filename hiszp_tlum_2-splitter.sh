@@ -89,8 +89,6 @@ TIMES=(
 
 split_chapter 14 TIMES
 
-exit
-
 TIMES=(
 00:00:07.2
 00:00:11.1

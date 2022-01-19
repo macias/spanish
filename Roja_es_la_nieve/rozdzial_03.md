@@ -4,7 +4,7 @@
 
 <p>— Dzień dobry. Jestem sierżant Tomás López. Co się wydarzyło?</p>
 
-<p>— Obudziłem się z drzemki i usłyszałem hałasy w domu — wyjaśnia spokojniej. — Pytałem kilka razy i nikt nie odpowiedział. 
+<p>— Obudziłem się z drzemki i usłyszałem hałasy w domu — wyjaśnia spokojniej. — Pytałem kilka razy i nikt nie odpowiedział.
 Hałas trwał przez chwilę... Zszedłem więc na dół do kuchni, wyszedłem tylnymi drzwiami i udałem się do domu sąsiada.</p>
 
 <p>— I nikogo pan nie widział?</p>
@@ -21,7 +21,7 @@ Hałas trwał przez chwilę... Zszedłem więc na dół do kuchni, wyszedłem ty
 
 <p>— Oczywiście... Mogę też wejść, jeśli pan chce.</p>
 
-<p>— Dziękuję, ale tutaj jesteś bezpieczniejszy.</p>
+<p>— Dziękuję, ale tutaj jest pan bezpieczniejszy.</p>
 
 <p>Włączam światło, ale nie zapala się. Chwytam ponownie latarkę i podaję mężczyźnie kolejną mniejszą latarkę.</p>
 

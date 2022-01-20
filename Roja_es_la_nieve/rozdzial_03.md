@@ -35,11 +35,11 @@ Hałas trwał przez chwilę... Zszedłem więc na dół do kuchni, wyszedłem ty
 
 <p>— Wie pan, w okolicy jest dużo napadów. Zwykle nikogo nie ma w domach i nikt nie został zaatakowany… ale jest to niebezpieczne.</p>
 
-<p>— Widziałem już samochód na drodze. Jutro mogę go sprawdzić. Oczywiście nikogo tu nie ma.</p>
+<p>— Widziałem już samochód na drodze. Jutro mogę go sprawdzić. Oczywiście, tutaj już nikogo nie ma.</p>
 
 <p>Patrzę na zegarek. Jest późno, a na ulicy jest już dużo śniegu. „Jestem odizolowany w tym mieście” myślę.</p>
 
-<p>— Zaczęła się burza... Czy mogę tu dzisiaj zostać? — pytam staruszka. — Tylko jeśli to nie jest kłopot. Odśnieżarka zaczyna działać jutro rano.</p>
+<p>— Zaczęła się burza... Czy mogę tu dzisiaj zostać na noc? — pytam staruszka. — Tylko jeśli to nie jest kłopot. Odśnieżarka zaczyna działać jutro rano.</p>
 
 <p>— Tak, oczywiście... Moja sąsiadka i ja spędzimy noc w jej domu. Nie chcę być sam. Może zostać pan z nami.</p>
 

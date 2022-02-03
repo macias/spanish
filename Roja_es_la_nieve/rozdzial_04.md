@@ -27,11 +27,11 @@ Niedawno założył sklep z używanymi samochodami. Ma największy biznes w okol
 <p>— A dlaczego nie przeprowadzi się pan do niego? — pytam. — Tutaj mieszka pan sam. Czy to nie jest dla pana trudne?</p>
 
 <p>— Mówi pan to z powodu moich stóp? — uderza w buty jedną z kul. — Jestem do tego przyzwyczajony. Dawno temu
-amputowano mi palce. Wypadek z ciągnikiem. Utrzymuję się z odszkodowań ubezpieczeniowych i mojego ogródka.</p>
+amputowano mi palce. Wypadek z ciągnikiem. Utrzymuję się z odszkodowań z ubezpieczenia i mojego ogródka.</p>
 
-<p>Amelia do nas dzwoni. Jedzenie jest gotowe. Zupa świetnie smakuje, zwłaszcza w środku burzy.</p>
+<p>Amelia woła nas. Jedzenie jest gotowe. Zupa świetnie smakuje, zwłaszcza w środku burzy.</p>
 
-<p>Chwilę rozmawiamy, ale wkrótce czuję się śpiący. Myślę, że to dziwne. „Jest dopiero dziesiąta w nocy…
+<p>Chwilę rozmawiamy, ale wkrótce czuję się śpiący. „To dziwne” — myślę. „Jest dopiero dziesiąta w nocy…
 Ale dzień był długi”.</p>
 
 <p>— Przepraszam, ale muszę iść spać. Pług śnieżny jest wcześnie i muszę wracać do kwatery.</p>

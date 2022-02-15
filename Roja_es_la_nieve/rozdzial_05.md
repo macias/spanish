@@ -1,6 +1,6 @@
 <p>Okrzyki dochodzą z zewnątrz. Szybko wstaję z kanapy i wychodzę drzwiami do domu Gonzalo.</p>
 
-<p>Burza się skończyła: miasto jest całkowicie białe. Śnieg sięga mi do bioder, ale ktoś wykopał
+<p>Burza się skończyła: miasto jest całkowicie białe. Śnieg sięga mi do biodra, ale ktoś wykopał
 wąską ścieżkę między dwoma domami. Wyjmuję pistolet. „Jak długo spałem?” — zastanawiam się.</p>
 
 <p>Odnajduję Amelię w tym samym miejscu, w którym spotkałem Gonzalo. Obejmuje mnie i zaczyna płakać.</p>
